@@ -1,0 +1,447 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header{
+    background-image: linear-gradient(
+        rgba(0,0,0,0.7),
+        rgba(0,0,0,0.7)),
+        url(images/arg.jpg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.menu{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    color: #fffdfc;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.menu .navbar ul li{
+    position: relative;
+    float: left;
+}
+.menu .navbar ul li a:hover{
+    color: #ce967b;
+}
+
+.menu .navbar ul li a{
+    font: 18px;
+    padding: 20px;
+    color: #fffdfc;
+    display: block;
+    font-weight: 600;
+}
+
+
+#menu{
+    display: none;
+}
+
+.menu-icono{
+    width: 25px;
+}
+
+.menu label{
+    cursor: pointer;
+    display: none;
+}
+
+.header-content{
+    text-align: center;
+}
+
+.header-content h1{
+    font-size: 75px;
+    line-height: 80px;
+    color: #f9fafc;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+}
+
+.header-content p{
+    font-size: 16px;
+    color: #c5c5c5;
+    padding: 0 250px;
+    margin-bottom: 25px;
+}
+
+.btn-1{
+    display: inline-block;
+    padding: 11px 35px;
+    background-color: #ce967b;
+    color: #f9fafc;
+    text-transform: uppercase;
+    border-radius: 5px;
+    box-shadow: 0 2px rgba( 0,0,0,0.7);
+}
+
+.btn-1:hover{
+    background-color: #ebad8d;
+}
+
+.destinos{
+    padding: 100px 0;   
+    background-color: #e1e2e6;
+    position: relative;
+}
+
+.destinos-content{
+    text-align: center;
+}
+
+.destinos-content h2{
+    font-size: 55px;
+    line-height: 70px;
+    color: #323337;
+    text-transform: uppercase;
+    padding: 0 250px;
+    margin-bottom: 15px;
+}
+
+.txt-p{
+    font-size: 16px;
+    color: #414247;
+    padding: 0 250px;
+    margin-bottom: 35px;
+}
+
+.destinos-group{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.destino-1{
+    padding: 0 25px;
+}
+
+.destino-1 img{
+    width: 200px;
+}
+
+.destino-1 h3{
+    color: #323337;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.services {
+    background-image: linear-gradient(
+        rgba(0,0,0,0.7),
+        rgba(0,0,0,0.7)),
+        url(images/vueloServices.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 100px 0;
+}
+
+.services-content{
+    text-align: center;
+}
+
+.services-content h2{
+    font-size: 55px;
+    line-height: 70px;
+    color: #f9fafc ;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+
+}
+.services-content p{
+    font-size: 16px;
+    color: #c5c5c5;
+    margin-bottom: 50px;
+    padding: 0 100px;
+    text-align: start;
+}
+
+.services-1 img{
+    width: 50px;
+    height: 70px;
+    margin-bottom: 15px;
+}
+
+.services-group{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.services-1{
+    padding: 0 100px;
+}
+
+.services-1 h3{
+    color: #51c7db;
+    font-size: 18px;
+    
+}
+
+.descripVuelos{
+    display: flex;
+}
+
+.descrip-1{
+    width: 50%;
+    padding: 100px 250px 100px 100px;
+    background-color: #e1e2e6;
+}
+
+.descrip-2{
+    background-image: url(images/CTurista.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+.descrip-3{
+    background-image: url(images/PClase.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+h2{
+    font-size: 55px;
+    line-height: 70px;
+    color: #323337;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+p{
+    font-size: 16px;
+    color: #414247;
+    margin: 25px 0 45px 0;
+}
+
+.atracciones{
+    padding: 100px 0;
+    text-align: center;
+}
+
+.atracciones-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.atraccion-1{
+    padding: 15px 55px;
+}
+
+.atraccion-1 img{
+    width: 250px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+.atraccion-1 h2{
+    font-size: 25px;
+    color: #323337;
+}
+
+.atraccion-1{
+    box-shadow: 0 2px 3px;
+    border-radius: 3%;
+    margin: 10px;
+}
+
+.atraccion-1:hover{
+    background-color: #f0eded;
+    
+}
+
+.atraccion-2{
+    box-shadow: 0 2px 3px;
+    border-radius: 3%;
+    margin: 10px;
+    transition: background-color 0.s;
+}
+.atraccion-2:hover{
+    background-color: #f0eded;
+    
+}
+
+.atraccion-2{
+    padding: 15px 55px;
+}
+
+.atraccion-2 img{
+    width: 250px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+.atraccion-2 h2{
+    font-size: 25px;
+    color: #323337;
+}
+
+.atraccion-2 li{
+    text-align: left;
+}
+
+.footer{
+    padding: 100px 0;
+    background-color: #000000;
+}
+
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.link a{
+    font-size: 16px;
+    color: #c5c5c5;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.link a:hover{
+    color: #a8a8a8;
+}
+
+@media(max-width:991px){
+
+    .menu{
+        padding: 30px;
+    }
+
+    .menu label{
+        display: initial;
+    }
+
+    .menu .navbar{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: #323337;
+        display: none;
+    }
+
+    .menu .navbar ul li{
+        width: 100%;
+    }
+    #menu:checked ~ .navbar{
+        display: initial;
+    }
+
+    .header{
+        min-height: 0vh;
+    }
+
+    .header-content{
+        padding: 100px 30px;
+    }
+
+    .header-content p{
+        padding: 0;
+    }
+
+    .destino{
+        padding: 30px;
+    }
+
+    .destinos-content h2{
+        padding: 0;
+    }
+
+    .txt-p{
+        padding: 0;
+    }
+
+    .destinos-group{
+        flex-direction: column;
+    }
+
+    .services{
+        padding: 30px;
+    }
+
+    .services-content{
+        padding: 0;
+    }
+
+    .services-group{
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+
+    .services-1{
+        margin-bottom: 25px ;
+    }
+
+    .descripVuelos{
+        flex-direction: column;
+    }
+    .descrip-1{
+        width: 100%;
+        padding: 30px;
+        text-align: center;
+    }
+
+    .descrip-2, .descrip-3{
+        display: none;
+    }
+
+    .atracciones{
+        padding: 30px;
+    }
+
+    .atracciones-content{
+        flex-direction: column;
+    }
+
+    .atraccion-1{
+        padding: 0;
+    }
+
+    .atraccion-2{
+        padding: 0;
+    }
+
+    .footer{
+        padding: 30px;
+    }
+
+    .footer-content{
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+
